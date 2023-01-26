@@ -1,10 +1,60 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: poppins;
 }
 
-p {
-      text-align: center;
-      font-size: 60px;
-      margin-top: 0px;
-    }
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.titulo{
+  color: #6C63FF;
+  font-size: 43px;
+}
+
+.contador{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #C8C8C8;
+  margin: 15px 0;
+}
+
+.count{
+  grid-column: 1 / span 4;
+  grid-row: 4;  
+  font-size: 60px;
+  margin-top: 0px;
+  color: #4D4C59;
+}
+
+.inscrever{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.inscrever-span{
+  color: #9C9AB6;
+}
+
+.botao {
+  background-color: #6C63FF; 
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;  
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 10rem;
+}
